@@ -13,7 +13,21 @@ import string
 import matplotlib.pyplot as plt
 import time
 
-
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('pros_cons')
+nltk.download('reuters')
+nltk.download('universal_tagset')
+nltk.download('snowball_data')
+nltk.download('rslp')
+nltk.download('porter_test')
+nltk.download('vader_lexicon')
+nltk.download('treebank')
+nltk.download('dependency_treebank')
+nltk.download('maxent_treebank_pos_tagger')
+nltk.download('hmm_treebank_pos_tagger')
 
 @st.cache_data
 def load_data(vectoriser_path, model_path):
