@@ -2,7 +2,7 @@
 
 A Web App to perform sentiment analysis on tweets. 
 
-App is deployed in Streamlit Cloud, click the link to access it : [Open in Streamlit Cloud]() 
+App is deployed in Streamlit Cloud, click the link to access it : [Open in Streamlit Cloud](https://sentiment-analysis-nlp-ybj.streamlit.app/) 
 
 ## Summary
 
